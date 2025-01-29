@@ -18,6 +18,10 @@ export const authOptions = {
     // ...add more providers here
     
   ],
+  pages: {
+    signIn: '/auth/signin',
+  },
+  debug: true,  // Set to true to log detailed errors during the OAuth process
 }
 
 export default NextAuth(authOptions)
