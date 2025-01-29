@@ -1,4 +1,4 @@
-import Configurations from '../configs/configs.json'
+import Configurations from '../config/config.json'
 
 export default class Player {
 
